@@ -25,7 +25,10 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "source": "./src/",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/traverse": "7.23.2",
+    "unset-value": "2.0.1"
+  },
   "license": "MIT",
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
